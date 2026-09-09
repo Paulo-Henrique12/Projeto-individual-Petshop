@@ -1,0 +1,33 @@
+.banner{
+
+    height: 500px;
+    margin: 30px;
+
+    background-image: url("../../assets/ImagemBanner.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.banner .conteudoBanner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     text-align: center;
+    margin-left: 150px;
+}
+
+.banner .conteudoBanner h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner .conteudoBanner .textoBoasVindas{
+    font-size: 40px;
+}

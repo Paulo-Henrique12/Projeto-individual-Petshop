@@ -1,0 +1,95 @@
+.sectionSobreGet {
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    background-color: #ECFAF1;
+    width: 45%;
+    height: 450px;
+    padding: 50px;
+    gap: 50px;
+    border-radius: 30px;
+    
+}
+
+section .sobreGet{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sobreGet .logoLista{
+    font-size: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: #429653;
+    background-color: #B0E5BD;
+}
+
+.tituloCadastrados{
+    font-size: 22px;
+    font-weight: 700;
+    color: #429653;
+}
+
+.consultarPets{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textoCadastrados{
+    width: 380px;
+}
+
+.consultarPets button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    width: 230px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #439B4A;
+    margin-top: 15px;
+}
+
+.sobreLista p{
+    color: #3D9145;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+table{
+    text-align: center;
+    border: 1px solid #000;
+    width: 105%;
+    border-radius: 5px;
+}
+
+th, td{
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 10px;
+}
+
+th{
+    background-color: #B0E5BD;
+}
+
+td{
+    background-color: #fff;
+}
+
+.lupa{
+    font-size: 15px;
+    margin-right: 9px;
+}
+
+
+
