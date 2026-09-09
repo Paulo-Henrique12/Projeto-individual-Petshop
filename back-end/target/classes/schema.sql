@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS pet (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    especie VARCHAR(50) NOT NULL,
+    raca VARCHAR(100),
+    idade INT,
+    curiosidade VARCHAR(255)
+);
