@@ -1,0 +1,106 @@
+.sectionSobrePost{
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    background-color: #FFF0E5;
+    width: 45%;
+    height: 450px;
+    padding: 30px 50px 50px;
+    gap: 30px;
+    border-radius: 30px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sectionSobrePost .sobrePost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobrePost .logoCadastro{
+   
+    flex-shrink: 0;
+    width: 25%;
+    height: 150%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 60px;
+    color: #F97316;
+    background-color: #FAD8C0;
+}
+
+.logoCadastro{
+    margin-right: 120px;
+    width: 90px;
+    height: 90px;
+}
+
+.cadastrarPets{
+    margin-left: -80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tituloCadastrar{
+     font-size: 22px;
+    font-weight: 700;
+    color: #F97316;
+}
+
+.textoCadastrar{
+    width: 380px;
+}
+
+.atributosTextoInput{
+    display: flex;
+    gap: 20px;
+}
+
+.textoAtributos{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 10px;
+}
+
+input{
+    padding: 15px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 177, 177);
+}
+
+.inputAtributos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botaoCadastrar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botaoCadastrar button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #F97316;
+    color: #FFF;
+}
